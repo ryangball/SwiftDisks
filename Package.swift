@@ -10,7 +10,9 @@ let package = Package(
         .library(name: "SwiftDisks", targets: ["SwiftDisks"])
     ],
     targets: [
-        .target(name: "SwiftDisks", dependencies: [])
+        .target(name: "SwiftDisks",
+                path: "SwiftDisks",
+                dependencies: [])
     ],
     swiftLanguageVersions: [.v5]
 )
