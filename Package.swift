@@ -11,8 +11,8 @@ let package = Package(
     ],
     targets: [
         .target(name: "SwiftDisks",
-                path: "SwiftDisks",
-                dependencies: [])
+                dependencies: [],
+                path: "SwiftDisks")
     ],
     swiftLanguageVersions: [.v5]
 )
